@@ -1,0 +1,107 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------------- */
+
+body {
+    /* background-image: url("../img/topography.svg"); */
+    background-image: url(../img/topography.svg);
+    background: linear-gradient(90deg, #0c7900, #68018a, #070057);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* * estilos Header */
+.header {
+    background-color: rgba(255, 255, 255, .2);
+    margin-bottom: 3em;
+    border-radius: 20px;
+}
+
+.header .logo {
+    transform: rotateY(180deg);
+}
+
+.header .titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: #121212;
+    text-shadow: 2px 2px 5px #121212;
+}
+
+.header nav li {
+    list-style: none;
+}
+
+.header nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #121212;
+    border: 2px solid #121212;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.header nav a:hover {
+    color: #f2f2f2;
+    background-color: #121212;
+}
+
+
+/* * estilos Main */
+
+.main p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin: 1em;
+}
+
+/* * estilos Aside */
+.ads img {
+    margin: 1.25em auto;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    box-shadow: 4px 4px 10px #121212;
+    filter: saturate(2);
+}
+
+.ads img:hover {
+    border: #f2f2f2 solid 1px;
+    filter: none;
+}
+
+/* * estilos footer */
+
+.footer {
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 20px;
+}
+
+.footer .lg {
+    margin: 2em auto;
+}
+
+
+/*  Estilos página imágenes */
+
+.galeria img {
+    margin: 20px 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px #f2f2f2;
+    opacity: .8;
+}
+
+.galeria img:hover {
+    opacity: 1;
+}
+
+.adsImg {
+    text-align: center;
+}
